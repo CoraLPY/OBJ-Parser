@@ -123,7 +123,7 @@ void initObjModel() {
     glShadeModel(GL_FLAT);
     glEnable(GL_DEPTH_TEST); 
     setLightRes();//set light
-    SetupRC();//设置环境光
+    SetupRC();//SET 環境光
     colorMode = 0;
     setGenList(); // set glGenLists 
 }
@@ -177,8 +177,7 @@ int main(int argc, char** argv)
     click = false;
 
     glutInit(&argc, argv);
-     window_h = glutGet(GLUT_WINDOW_HEIGHT);
-     window_w = glutGet(GLUT_WINDOW_HEIGHT);
+   
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowSize(window_w, window_h);
     glutInitWindowPosition(600, 80);
