@@ -27,7 +27,7 @@ Adjustable Camera (10%)
 
   >Keyboard control (where the camera is, and where it look at)
   
- >Adjust the object to fit into the screen. (20%)
+Adjust the object to fit into the screen. (20%)
 
    >The object should load into the screen probably (not too small,
 not too big, not to far, not to close).
